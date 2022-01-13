@@ -16,10 +16,19 @@ body {
 	width: 48%;
 	justify-content: space-between;
 }
+input {
+	display: block;
+}
 .pers {
 	
 }
 
 .check {
 	font-size: 15px;
+	display: flex;
+}
+
+.sub {
+	width: 100px;
+	right: 0;
 }

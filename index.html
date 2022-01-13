@@ -23,16 +23,23 @@
 		<input type="text" placeholder="First name" maxlength="50" name="" required>
 		<input type="text" placeholder="Last name" maxlength="50" name="">
 		<input type="text" placeholder="" name="">
-		<input type="date" name="" required>
+		<input type="date" placeholder="mm/dd/yyyy" name="" required>
 		</form>
 	</div>
 </div>
-<div class="check">
-	<form></form>
-	<input type="checkbox" name=""> <label>I want to receive mems and special offers</label>
-	<br>
-	<input type="checkbox" name=""><label> I agree with Terms and Conditions</label>
+<div>
+	<form>
+	<div class="check">
+	<input type="checkbox" checked id="c1" name=""><label for="c1">I want to receive mems and special offers</label>
+	</div>
+	<div class="check">
+	<input type="checkbox" checked id="c2" name=""><label for="c2">I agree with Terms and Conditions</label>
+	</div>
 	</form>
+</div>
+<hr>
+<div class="sub">
+	<button type="submit">Submit</button>	
 </div>
 </body>
 </html>
