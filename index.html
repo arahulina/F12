@@ -10,21 +10,22 @@
 <div class="main">
 	<div class="regist">
 		<p>Registration form</p>
-		<div><input type="text" placeholder="Username" name=""></div>
-		<div><input type="email" placeholder="Email adress" name=""></div>
-		<div><input type="password" placeholder="Password" name=""></div>
-		<div><input type="password" placeholder="Confirm password" name=""></div>
+		<div><input type="text" placeholder="Username" name="" required></div>
+		<div><input type="email" placeholder="Email adress" maxlength="30" name="" required></div>
+		<div><input type="password" placeholder="Password" maxlength="10" name="" required></div>
+		<div><input type="password" placeholder="Confirm password" maxlength="10" name="" required></div>
 	</div>
 	<div class="pers">
-		<p>Personal details</p></div>
-		<div><input type="text" placeholder="First name" name=""></div>
-		<div><input type="text" placeholder="Last name" name=""></div>
+		<p>Personal details</p>
+		<div><input type="text" placeholder="First name" maxlength="50" name="" required></div>
+		<div><input type="text" placeholder="Last name" maxlength="50" name=""></div>
 		<div><input type="text" placeholder="" name=""></div>
-		<div><input type="date" name=""></div>
+		<div><input type="date" name="" required></div>
 	</div>
+</div>
 <div>
-	<div><input type="checkbox" name=""></div>
-	<div><input type="checkbox" name=""></div>
+	<div><input type="checkbox" name=""> I want to receive mems and special offers</div>
+	<div><input type="checkbox" name=""> I agree with Terms and Conditions</div>
 </div>
 </body>
 </html>

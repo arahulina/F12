@@ -1,15 +1,18 @@
 body {
 	margin: 0;
 	padding: 0;
+	width: 1080px;
 }
 .main {
 	display: inline-flex;
+	width: 100%;
 }
-.regist {
+.regist, .pers {
 	display: flex;
 	flex-direction: column;
+	width: 48%;
+	justify-content: space-between;
 }
 .pers {
-	display: flex;
-	flex-direction: column;
+	
 }
