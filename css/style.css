@@ -2,10 +2,13 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 1080px;
+	font-family: Arial;
+	font-size: 20px;
 }
 .main {
 	display: inline-flex;
 	width: 100%;
+	margin-bottom: 10px;
 }
 .regist, .pers {
 	display: flex;
@@ -15,4 +18,8 @@ body {
 }
 .pers {
 	
+}
+
+.check {
+	font-size: 15px;
 }
