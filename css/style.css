@@ -11,24 +11,51 @@ body {
 	margin: 0 auto;
   	display: flex;
 }
-.reg ul li {
+.reg ul {
+	margin: 0;
+	padding: 0;
+}
+.reg ul li, .per ul li {
 	list-style-type: none;
+	margin-bottom: 10px;
 }
-.reg ul li:nth-child(1) {
-	list-style-image: url(../img/username.png);
+.reg ul li:nth-child(1)::before {
+	content: ''; 
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(../img/username.png); 
+	background-size: contain; 
+	margin: -5px 10px 0 0;
 }
-.reg ul li:nth-child(2) {
-	list-style-image: url(../img/email.png);
+.reg ul li:nth-child(2)::before {
+	content: ''; 
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(../img/email.png); 
+	background-size: contain; 
+	margin: 0 10px 0 0;
 }
-.reg ul li:nth-child(3) {
-	list-style-image: url(../img/pswd.png);
-	width: 45%;
+.reg ul li:nth-child(3)::before {
+	content: ''; 
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(../img/pswd.png); 
+	background-size: contain; 
+	margin: 0 10px 0 0;
 }
 .reg ul li:nth-child(4) {
-	width: 45%;
+	width: 30%;
+	display: inline-block;
 }
 .long {
-	width: 95%;
+	width: 85%;
+	flex-grow:1;
+}
+.checkbox {
+	margin-top: 30px;
 }
 hr {
 	height: 3px;
