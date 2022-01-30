@@ -8,35 +8,37 @@
 </head>
 <body>
 <form action="">
-<div class="main">
-	<div class="reg">	
-		<p>Registration form</p>
-		<input type="text" class="one" placeholder="Username" name="" required>
-		<input type="email" class="one" placeholder="Email adress" maxlength="30" name="" required>
-		<input type="password" class="one" placeholder="Password" maxlength="10" name="" required>
-		<input type="password" class="one" placeholder="Confirm password" maxlength="10" name="" required>
+<div class="container-fluid main">
+	<div class="row">
+		<div class="col-xl-6 reg">	
+			<h4>Registration form</h4>
+			<ul>
+				<li><input type="text" class="one long" placeholder="Username" name="" required></li>
+				<li><input type="email" class="one long" placeholder="Email adress" maxlength="30" name="" required></li>
+				<li><input type="password" class="one long" placeholder="Password" maxlength="10" name="" required></li>
+				<li><input type="password" class="one long" placeholder="Confirm password" maxlength="10" name="" required></li>
+			</ul>
+		</div>
+		<div class=" col-xl-6 per">
+			<p>Personal details</p>
+			<input type="text" class="one" placeholder="First name" maxlength="50" name="" required>
+			<input type="text" class="one" placeholder="Last name" maxlength="50" name="">
+			<input type="text" class="one" placeholder="" name="">
+			<input type="date" class="one" placeholder="mm/dd/yyyy" name="" required>
+		</div>
+	<div>
+		<div class="check">
+		<input type="checkbox" id="c1" name=""><label for="c1" checked>I want to receive mems and special offers</label>
+		</div>
+		<div class="check">
+		<input type="checkbox" id="c2" name=""><label for="c2" checked>I agree with Terms and Conditions</label>
+		</div>
 	</div>
-	<div class="per">
-		<p>Personal details</p>
-		<input type="text" class="one" placeholder="First name" maxlength="50" name="" required>
-		<input type="text" class="one" placeholder="Last name" maxlength="50" name="">
-		<input type="text" class="one" placeholder="" name="">
-		<input type="date" class="one" placeholder="mm/dd/yyyy" name="" required>
+	<hr>
+	<div class="sub">
+		<button type="submit">Submit</button>	
 	</div>
 </div>
-<div>
-	<form>
-	<div class="check">
-	<input type="checkbox" id="c1" name=""><label for="c1">I want to receive mems and special offers</label>
-	</div>
-	<div class="check">
-	<input type="checkbox" id="c2" name=""><label for="c2">I agree with Terms and Conditions</label>
-	</div>
-	</form>
-</div>
-<hr>
-<div class="sub">
-	<button type="submit">Submit</button>	
 </div>
 </form>
 </body>

@@ -4,6 +4,7 @@ body {
 	width: 1080px;
 	font-family: Arial;
 	font-size: 20px;
+	box-sizing: border-box;
 }
 .main {
 	width: 100%;
@@ -12,10 +13,51 @@ body {
 
 
 }
-.one {
-	display: block;
-}
 .reg {
-	display: flex;
-	flex-flow: column wrap;
+
+
+}
+.reg ul li {
+	list-style-type: none;
+}
+.reg ul li:nth-child(1) {
+	list-style-image: url(../img/username.png);
+
+}
+.reg ul li:nth-child(2) {
+	list-style-image: url(../img/email.png);
+}
+.reg ul li:nth-child(3) {
+	list-style-image: url(../img/pswd.png);
+	width: 45%;
+}
+.reg ul li:nth-child(4) {
+	width: 45%;
+}
+.per {
+
+}
+.long {
+	width: 95%;
+}
+
+
+
+
+
+
+
+
+
+.sub {
+	width: 1080px;
+	position: fixed;
+	right: 0;
+}
+button {
+	background-color: darkturquoise;
+	padding: 10px 30px;
+	border-radius: 1px;
+	color: white;
+	text-transform: uppercase;
 }
