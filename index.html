@@ -11,24 +11,28 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<form action="">
+<form action="#" method="post" name="">
 <div class="container-fluid main">
 	<div class="row">
 		<div class="col-xl-6 reg">	
 			<h4>Registration form</h4>
 			<ul>
-				<li><input type="text" class="one long" placeholder="Username" name="" required></li>
-				<li><input type="email" class="one long" placeholder="Email adress" maxlength="30" name="" required></li>
-				<li><input type="password" class="one" placeholder="Password" maxlength="10" name="" required></li>
-				<li><input type="password" class="one" placeholder="Confirm password" maxlength="10" name="" required></li>
+				<li><input type="text" class="one long" placeholder="Username" pattern="[A-Za-z]" maxlength="50" name="" required></li>
+				<li><input type="email" class="one long" placeholder="Email adress" pattern="[A-Za-z]/[0-9]" maxlength="30" name="" required></li>
+				<li><input type="password" class="one" placeholder="Password" pattern="[A-Za-z]/[0-9]" maxlength="10" name="" required></li>
+				<li><input type="password" class="one" placeholder="Confirm password" pattern="[A-Za-z]/[0-9]" maxlength="10" name="" required></li>
 			</ul>
 		</div>
 		<div class="col-xl-6 per">
 			<h4>Personal details</h4>
 			<ul>
-				<li><input type="text" class="one" placeholder="First name" maxlength="50" name="" required></li>
-				<li><input type="text" class="one" placeholder="Last name" maxlength="50" name=""></li>
-				<li><input type="text" class="one" placeholder="" name=""></li>
+				<li><input type="text" class="one" placeholder="First name" pattern="[A-Za-z]" maxlength="50" name="" required></li>
+				<li><input type="text" class="one" placeholder="Last name" pattern="[A-Za-z]" maxlength="50" name=""></li>
+				<li><select name="gender" size="1">
+					<option value="first">Male</option>
+					<option selected="selected" value="second">Female</option>
+					<option value="first">Other</option>
+					</select>
 				<li><input type="date" class="one" placeholder="mm/dd/yyyy" name="" required></li>
 			</ul>	
 		</div>
@@ -44,9 +48,9 @@
 			</div>
 		</div>
 	</div>
+	<div class="line"></div>
 	<div class="container sub">
 		<div class="row">
-			<hr>
 			<div class="col-12">
 				<button type="submit">Submit</button>	
 			</div>	
