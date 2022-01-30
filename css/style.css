@@ -10,19 +10,12 @@ body {
 	width: 100%;
 	margin: 0 auto;
   	display: flex;
-
-
-}
-.reg {
-
-
 }
 .reg ul li {
 	list-style-type: none;
 }
 .reg ul li:nth-child(1) {
 	list-style-image: url(../img/username.png);
-
 }
 .reg ul li:nth-child(2) {
 	list-style-image: url(../img/email.png);
@@ -34,25 +27,16 @@ body {
 .reg ul li:nth-child(4) {
 	width: 45%;
 }
-.per {
-
-}
 .long {
 	width: 95%;
 }
-
-
-
-
-
-
-
-
-
+hr {
+	height: 3px;
+}
 .sub {
 	width: 1080px;
-	position: fixed;
-	right: 0;
+	display: flex;
+	justify-content: flex-end;
 }
 button {
 	background-color: darkturquoise;
