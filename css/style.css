@@ -6,29 +6,16 @@ body {
 	font-size: 20px;
 }
 .main {
-	display: inline-flex;
 	width: 100%;
-	margin-bottom: 10px;
+	margin: 0 auto;
+  	display: flex;
+
+
 }
-.regist, .pers {
-	display: flex;
-	flex-direction: column;
-	width: 48%;
-	justify-content: space-between;
-}
-input {
+.one {
 	display: block;
 }
-.pers {
-	
-}
-
-.check {
-	font-size: 15px;
+.reg {
 	display: flex;
-}
-
-.sub {
-	width: 100px;
-	right: 0;
+	flex-flow: column wrap;
 }
